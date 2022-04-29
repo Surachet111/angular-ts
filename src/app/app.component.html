@@ -1,0 +1,32 @@
+<a routerLink="/">Main</a> |
+<a routerLink="/other">Other</a> |
+<a routerLink="/user">User component</a>
+<router-outlet></router-outlet>
+
+<!-- <h2>Parent component</h2>
+
+
+<app-other [name]="parentName" (changedNameEvent)="onResponse($event)" ></app-other> -->
+
+
+
+
+
+
+<!-- <h2>Hello</h2>
+
+Name : <input type="text" [value]="name" #myname (input)="doSth(myname.value)" />
+<br/>
+Name2 : <input type="text" #myname2 (input)="doSth(myname2.value)" />
+<br/>
+Name3 (2-ways binding) :
+<input type="text" [(ngModel)]="name" />
+<input type="text" [ngModel]="name" (ngModelChange)="name=$event" />
+
+<p *ngIf="!name">Please enter your name</p>
+<p *ngIf="name">Hi, {{name | uppercase}}</p>
+<p *ngIf="name; else showDefaultMessage">Hi, {{name | uppercase | lowercase}}</p>
+<ng-template #showDefaultMessage>Please enter your name</ng-template>
+
+<p>Use NgFor</p>
+<div *ngFor="let d of datas">{{d.id}} => {{d.name}}</div> -->
